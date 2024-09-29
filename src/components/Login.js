@@ -3,6 +3,7 @@ import Header from './Header';
 import { checkValidData } from '../utils/Validate';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../utils/Firebase';
+import { BG_URL } from '../utils/constants';
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm ] = useState(true);
@@ -58,7 +59,7 @@ const Login = () => {
     <div>
       <Header/>
       <div className='absolute'>
-        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_small.jpg" 
+        <img src={BG_URL} 
         alt="logo" />
       </div>
       <form
