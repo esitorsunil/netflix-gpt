@@ -1,5 +1,14 @@
-# Netflix GPT
+# THE DEVELOPMENT OF AI POWERED NETFLIX REPLICA WEB APPLICATION USING REACT AND GPT TURBO 3.5
 
+### Techologies Used:
+- React JS, HTML5, Tailwind CSS, JavaScript, Redux Toolkit, Firebase Auth, OpenAI, GPT Turbo 3.5, TMDB API.
+
+### Project Description
+- Developed a robust authentication system using Firebase Auth, ensuring secure user login with modular APIs and unique user IDs, while maintaining a responsive and high-performance Netflix-style UI using React JS and Tailwind CSS.
+- Integrated OpenAI's GPT-3.5 Turbo API into the search bar, enabling intelligent movie recommendations and complex category-wise filtering based on user input, leveraging TMDB API for real-time data retrieval.
+- Implemented a seamless multi-language feature using Redux Toolkit, allowing users to switch between different languages dynamically, improving user experience and engagement across diverse audiences.
+
+### Implementation
 - Create React App
 - Configured TailwindCSS 
 - Header
