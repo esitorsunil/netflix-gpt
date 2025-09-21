@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Login from './Login';
 import Browse from './Browse';
@@ -34,4 +35,42 @@ const Body = () => {
   )
 }
 
+=======
+import React from 'react';
+import Login from './Login';
+import Browse from './Browse';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import WatchPage from './WatchPage';
+import Trailer from './Trailer';
+
+
+const Body = () => {
+    const appRouter = createBrowserRouter([
+        {
+            path: "/",
+            element: <Login/>,
+        },
+        {
+            path:"/browse",
+            element:<Browse />
+        },
+        {
+            path:"/watch",
+            element:<WatchPage />
+        },
+        {
+            path: "/watchtrailer",
+            element:<Trailer />
+        }
+        
+    ]);
+
+  return (
+    <div>
+        <RouterProvider router={appRouter}/>
+    </div>
+  )
+}
+
+>>>>>>> 6e8d130 (env)
 export default Body
